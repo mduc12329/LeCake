@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: antiquewhite;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.col-half{
+    width: 50%;
+}
+
+a{
+    color:#fff;
+}
+
+a:hover{
+    color: rgb(0, 162, 255);
+}
+
+a:active{
+    color: rgb(74, 208, 226);
+}
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding:10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+.button:visited{
+    color: white;
+}
+
+.clr{
+    clear:both;
+}
+
+.showcase{
+    text-align: center;
+    background: linear-gradient(rgba(51, 50, 50, 0.75),rgba(51, 50, 50, 0.75)), url('imgs/AllInTheImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom:50px;
+}
+
+#navbar{
+    padding:20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+#navbar a{
+    color:#f4f4f4;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro{
+    color:antiquewhite;
+    padding-top: 130px;
+    padding-bottom: 245px;
+    position: relative;
+ 
+}
+
+.intro h1{
+    font-size:5vw;
+    font-family: Tahoma;
+    padding:50px;
+   
+}
+.box-2 h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding:20px;
+    margin: 20px 0;
+   
+}
+
+.menu{
+    width: 35%;
+    border:10px #ff9f43;
+    border-style: dashed;
+    padding:20px;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+
+.menu h2{
+    text-align:center;
+}
+
+.menu ul{
+    padding:0px;
+    list-style: none;
+}
+
+.menu li{
+    text-align:inline;
+    padding-bottom: 8px;
+    
+}
+
+.my-form{
+    padding:20px;
+    border:10px #ff6b6b;
+    border-style: dotted;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.my-form h1{
+    text-align:center;
+    padding-bottom: 8px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    color:#f4f4f4;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.cheesecake{
+    background-image: url('imgs/redvelvet\ cheesecake.jpg');
+    background-repeat: no-repeat;
+    
+}
+
+.strawberry-cake{
+    background-image: url('imgs/straw-background.jpg');
+    background-repeat: no-repeat;
+}
+
+.brownies{
+    background-image: url('imgs/brownies.jpg');
+    background-repeat: no-repeat;
+}
+
+.cupcakes{
+    background-image: url('imgs/Doc_unbox.jpg');
+    background-repeat: no-repeat;
+}
+
+#cheesecake #brownies {
+    padding:auto;
+    width:30%;
+}
+
+#strawberry-cake #cupcakes{
+    padding:auto;
+    width:30%;
+}
+
+.img{
+    width:50%;
+}
+
+#main-block{
+    margin-top: 50px;
+    float: left;
+    width: 70%;
+    height:100px;
+    box-sizing: border-box;
+    align-items: center;
+}
+#sidebar{
+    margin-top: 50px;
+    float: right;
+    height:150px;
+    width: 30%;
+    color:#fff;
+    background-color:#333;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+#sidebar ul{
+    list-style: none;
+    padding: 25px 20px;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top:40px;
+}
+
+.fix-me{
+    position: fixed;
+    bottom:50px;
+    right: 30px;
+}
